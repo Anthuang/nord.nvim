@@ -403,6 +403,20 @@ theme.loadPlugins = function()
 
     -- Fern
     FernBranchText = { fg = nord.nord3_gui_bright},
+
+    -- Barbar
+    BufferCurrent = { fg = nord.nord9_gui },
+    BufferCurrentIndex = { fg = nord.nord9_gui },
+    BufferCurrentMod = { fg = nord.nord13_gui },
+    BufferCurrentSign = { fg = nord.nord9_gui },
+    BufferVisible = { fg = nord.fg },
+    BufferVisibleIndex = { fg = nord.fg },
+    BufferVisibleMod = { fg = nord.nord13_gui },
+    BufferVisibleSign = { fg = nord.fg },
+    BufferInactive = { fg = nord.comments },
+    BufferInactiveMod = { fg = nord.comments },
+    BufferInactiveSign = { fg = nord.comments },
+    BufferTabpageFill = { fg = nord.comments },
   }
   -- Options:
 
